@@ -115,3 +115,4 @@ app.delete('/api/user/:id',(request,response)=>{
   data.splice(findUserIndex, 1)
   response.sendStatus(200)
 })
+
